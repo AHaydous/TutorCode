@@ -1,0 +1,102 @@
+﻿* {
+    margin: 0 auto 0 auto; /* centers the whole page*/
+}
+
+
+body {
+    overflow-x: hidden;
+    font: 16pt arial, sans-serif;
+    padding: 0;
+    color: #555;
+}
+
+.head {
+    background-image: url('https://th.bing.com/th/id/R.eaf03a4b8b86ca06233dc237220512af?rik=rZMTtl%2fOylNrKg&riu=http%3a%2f%2fwww.korbitec.ca%2fwp-content%2fuploads%2f2018%2f04%2fDisrupt-Yourself.jpg&ehk=4vRTDpmGpiynPZZzMvZScr6XCb5S9pg37sLRoAlmZD4%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    padding-top: 10px;
+    font-family: "century gothic";
+}
+
+header h1 {
+    color: #fff;
+    font-size: 55pt;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+header h2 {
+    color: lightgray;
+    font-size: 23pt;
+    padding-left: 92px;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding-left: 680px;
+}
+
+    nav ul {
+        padding: 0px;
+    }
+
+    nav li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    nav a{
+        text-align: center;
+        font-size: 17px;
+        text-decoration: none;
+        color: #23343c;
+        width: 80px;
+        padding: 10px;
+        display: inline-block;
+        margin-right: 4px;
+    }
+        nav a:is(:link, :active, :visited).active {
+            color:#2cb04b;
+            font-weight:bold;
+        }
+            nav a:hover {
+            border-bottom: 3px solid #234c69;
+            color: #687c8a;
+        }
+
+    nav.fixed {
+        background-color: white;
+        opacity: 1;
+    }
+
+
+
+.code {
+    
+    padding-left: 80px;
+    padding-top: 60px;
+    
+}
+
+#codeSnippet {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color:#2cb04b;
+}
+
+footer {
+    color: #234c69;
+    font-size: 12pt;
+    background: white;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    height: 35px;
+}
