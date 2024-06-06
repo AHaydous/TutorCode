@@ -50,7 +50,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                 <ul>
                     <li><a href="aya.haydous@gmail.com">aya.haydous@gmail.com</a></li>
                     <li><a href="tel:+1234567890">(123) 456-7890</a></li>
-                    <li><a href="https://www.linkedin.com/in/AyaHaydous/">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/aya-haydous-b9161b255/">LinkedIn</a></li>
                 </ul>
             </div>
         </section>
