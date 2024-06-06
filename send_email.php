@@ -18,13 +18,13 @@ if(isset($_POST['send'])){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'aya.haydous.2003@gmail.com';
-    $mail->Password = 'ezamvlsfxptxsatg';
+    $mail->Username = getenv('EMAIL_USERNAME');
+    $mail->Password = getenv('EMAIL_PASSWORD');
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
     $mail->isHTML(true);
     $mail->setFrom($email,$name);
-    $mail->addAddress('aya.haydous.2003@gmail.com');
+    $mail->addAddress('email@gmail.com');
 
     $mail->Subject = "New Message from Contact Form";
     $mail->Body = $message;
